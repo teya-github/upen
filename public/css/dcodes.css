@@ -1,0 +1,136 @@
+
+@font-face {
+	font-family: Azonix;
+	src: url("../font/Azonix-1VB0.otf") format("opentype");
+}
+
+.dcodes-font {
+	font-family: Azonix;
+	font-weight: bold;
+	font-size:17pt;
+	padding: 0px;
+	letter-spacing:0.2em;
+}
+
+
+.dcs-letterSpacing{
+	letter-spacing:0.2em;
+}
+
+.dcs-shadowWhite {
+	text-shadow: 1px 0px 3px rgba(255,255,255,0.8), 
+	  -1px 0px 3px rgba(255,255,255,0.8), 
+	  0px 2px 3px rgba(255,255,255,0.8);
+	  
+	/* text-shadow: 3px 0px 7px rgba(255,255,255,0.8), 
+	  -3px 0px 7px rgba(255,255,255,0.8), 
+	  0px 4px 7px rgba(255,255,255,0.8); */
+}
+
+.dcs-shadowWhiteTimes {
+	text-shadow: 1px 0px 3px rgba(255,255,255,0.8), 
+	  -1px 0px 3px rgba(255,255,255,0.8), 
+	  0px 2px 3px rgba(255,255,255,0.8), 
+	  3px 0px  rgba(255,255,255,0.8), 
+	  -3px 0px 9px rgba(255,255,255,0.8), 
+	  0px 6px 9px rgba(255,255,255,0.8), 
+	  3px 0px  rgba(255,255,255,0.8), 
+	  -3px 0px 9px rgba(255,255,255,0.8), 
+	  0px 6px 9px rgba(255,255,255,0.8), 
+	  3px 0px  rgba(255,255,255,0.8), 
+	  -3px 0px 9px rgba(255,255,255,0.8), 
+	  0px 6px 9px rgba(255,255,255,0.8);
+}
+
+.dcs-shadowBlack {
+	text-shadow: 1px 0px 3px rgba(0,0,0,0.8), 
+	  -1px 0px 3px rgba(0,0,0,0.8), 
+	  0px 2px 3px rgba(0,0,0,0.8);
+}
+
+.dcs-shadowBlackTimes {
+	text-shadow: 1px 0px 3px rgba(0,0,0,0.8), 
+	  -1px 0px 3px rgba(0,0,0,0.8), 
+	  0px 2px 3px rgba(0,0,0,0.8), 
+	  3px 0px  rgba(0,0,0,0.8), 
+	  -3px 0px 9px rgba(0,0,0,0.8), 
+	  0px 6px 9px rgba(0,0,0,0.8), 
+	  3px 0px  rgba(0,0,0,0.8), 
+	  -3px 0px 9px rgba(0,0,0,0.8), 
+	  0px 6px 9px rgba(0,0,0,0.8), 
+	  3px 0px  rgba(0,0,0,0.8), 
+	  -3px 0px 9px rgba(0,0,0,0.8), 
+	  0px 6px 9px rgba(0,0,0,0.8);
+}
+
+/* dark blue: 11,76,95 / 0B4C5F */
+.dcs-shadowDarkBlue {
+	
+	/* shadowDarkBlue */
+	text-shadow: 1px 0px 1px rgba(11,76,95,1), 
+		-1px 0px 1px rgba(11,76,95,1), 
+		0px 1px 1px rgba(11,76,95,1);
+}
+
+.dcs-green {
+	color:#32d200;
+}
+
+.dcs-blue {
+	color:#58D3F7;
+}
+
+/* 
+default color: 53c5d5, replaced with: 32d200 
+default color: 00c6d7, replaced with: 32d200 
+default color: 00c7d8, replaced with: 32d200 
+
+*/
+
+.dcs-topDiv {
+	padding-top:50px;
+}
+
+.dcs-floatMenu {
+	position:absolute;
+	z-index:50; 
+	top:15px; 
+	
+}
+
+.dcs-btn {
+	padding: 6px 20px;
+	height:40px; 
+	/*border-top-right-radius: 20px; */
+	border-radius: 20px; 
+	text-align:center;
+	display:inline-block;
+	margin-right: 10px;
+	
+	color: #fff;	/* #32d200 */
+	font-size: 15px;
+	border: 2px solid #fff;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.dcs-btn:hover {
+	color: #58D3F7;	
+	border: 2px solid #58D3F7;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.dcs-title {
+	/* font-family:'Dosis-Regular';  */
+	line-height:normal; 
+	/*padding: 40px; 
+	background-color:rgba(0, 0, 0, 0.8); 
+	box-shadow: 2px 5px #01A9DB; */
+	margin-bottom:40px; 
+	text-align:center;
+}
+
+.dcs-font1 {
+		font-size: 17px;
+		font-weight: 700;
+}
